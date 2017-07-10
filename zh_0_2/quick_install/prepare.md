@@ -1,11 +1,17 @@
 # 环境准备
 
 ### 安装redis
+Centos
 	yum install -y redis
+Ubuntu
+        apt-get install redis-server -y
 
 ### 安装mysql
+Centos
 	yum install -y mysql-server
-
+Ubuntu
+        apt-get install mysql-server  -- 过程中需要输入root密码
+	
 **注意，请确保redis和MySQL已启动。**
 
 ### 初始化MySQL表结构
